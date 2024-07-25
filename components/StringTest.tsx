@@ -4,7 +4,7 @@ interface Props {
   children?: ReactNode;
   // any props that come into the component
 }
-export default function Test({ children }: Props) {
+export default function StringTest({ children }: Props) {
   return (
     <div style={{ backgroundColor: "red", height: "auto", width: "auto" }}>
       <div>{children}</div>
